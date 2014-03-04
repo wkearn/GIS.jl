@@ -22,6 +22,6 @@ converts the raster to a `RasterImage` type and displays the `RasterImage` using
 
 ## Todo ##
 
-1. Multiple raster display -- this probably requires some messing with [GDAL.jl](https://github.com/wkearn/GDAL.jl)(and maybe OGR to deal with projections)
+1. Multiple raster display -- this probably requires some messing with [GDAL.jl](https://github.com/wkearn/GDAL.jl) (and maybe OGR to deal with projections)
 2. Multi-band raster support -- once this is added to GDAL.jl, a couple of quick tweaks to `RasterImage` properties will let you display multi-band rasters as RGB images.
 
